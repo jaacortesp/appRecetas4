@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>{{ recipe?.title }}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content *ngIf="recipe">
+  <ion-card>
+    <img [src]="recipe.image" alt="{{ recipe.title }}">
+    <ion-card-header>
+      <ion-card-title>{{ recipe.title }}</ion-card-title>
+      <ion-card-subtitle>Ready in {{ recipe.readyInMinutes }} minutes</ion-card-subtitle>
+    </ion-card-header>
+    <ion-card-content>
+      <p>{{ recipe.summary }}</p>
+    </ion-card-content>
+  </ion-card>
+</ion-content>

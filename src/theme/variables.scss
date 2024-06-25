@@ -1,0 +1,21 @@
+// src/theme/variables.scss
+:root {
+    --primary-color: #ad7091;
+    --secondary-color: #e9d8ed62;
+    --text-color: #ffffff;
+  
+    --ion-color-primary: var(--primary-color);
+    --ion-color-primary-rgb: 173, 112, 145;
+    --ion-color-primary-contrast: var(--text-color);
+    --ion-color-primary-contrast-rgb: 75, 37, 57;
+    --ion-color-primary-shade: #9b637f;
+    --ion-color-primary-tint: #bd7fa2;
+  
+    --ion-color-secondary: var(--secondary-color);
+    --ion-color-secondary-rgb: 233, 216, 237;
+    --ion-color-secondary-contrast: var(--text-color);
+    --ion-color-secondary-contrast-rgb: 75, 37, 57;
+    --ion-color-secondary-shade: #d0b2cc;
+    --ion-color-secondary-tint: #efdee7;
+  }
+  
